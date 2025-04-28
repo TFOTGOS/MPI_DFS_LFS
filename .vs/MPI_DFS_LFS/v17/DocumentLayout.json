@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\serge\\source\\repos\\MPI_DFS_LFS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B488D17-CCF4-4538-89F2-3E5F9D1583C3}|MPI_DFS_LFS.csproj|d:\\users\\serge\\source\\repos\\mpi_dfs_lfs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B488D17-CCF4-4538-89F2-3E5F9D1583C3}|MPI_DFS_LFS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\serge\\source\\repos\\MPI_DFS_LFS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Users\\serge\\source\\repos\\MPI_DFS_LFS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAGoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T10:45:36.348Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

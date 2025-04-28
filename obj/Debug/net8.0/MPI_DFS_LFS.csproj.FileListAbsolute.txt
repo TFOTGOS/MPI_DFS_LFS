@@ -1,0 +1,17 @@
+D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\MPI_DFS_LFS.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\MPI_DFS_LFS.AssemblyInfoInputs.cache
+D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\MPI_DFS_LFS.AssemblyInfo.cs
+D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\MPI_DFS_LFS.csproj.CoreCompileInputs.cache
+D:\Users\serge\source\repos\MPI_DFS_LFS\bin\Debug\net8.0\MPI_DFS_LFS.exe
+D:\Users\serge\source\repos\MPI_DFS_LFS\bin\Debug\net8.0\MPI_DFS_LFS.deps.json
+D:\Users\serge\source\repos\MPI_DFS_LFS\bin\Debug\net8.0\MPI_DFS_LFS.runtimeconfig.json
+D:\Users\serge\source\repos\MPI_DFS_LFS\bin\Debug\net8.0\MPI_DFS_LFS.dll
+D:\Users\serge\source\repos\MPI_DFS_LFS\bin\Debug\net8.0\MPI_DFS_LFS.pdb
+D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\MPI_DFS_LFS.dll
+D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\refint\MPI_DFS_LFS.dll
+D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\MPI_DFS_LFS.pdb
+D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\MPI_DFS_LFS.genruntimeconfig.cache
+D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\ref\MPI_DFS_LFS.dll
+D:\Users\serge\source\repos\MPI_DFS_LFS\bin\Debug\net8.0\MPI.dll
+D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\MPI_DFS_LFS.csproj.AssemblyReference.cache
+D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\MPI_DFS_.C3BE6E57.Up2Date
