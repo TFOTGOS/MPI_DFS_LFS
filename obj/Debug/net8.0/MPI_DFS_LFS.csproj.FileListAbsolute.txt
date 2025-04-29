@@ -15,3 +15,4 @@ D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\ref\MPI_DFS_LFS.dll
 D:\Users\serge\source\repos\MPI_DFS_LFS\bin\Debug\net8.0\MPI.dll
 D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\MPI_DFS_LFS.csproj.AssemblyReference.cache
 D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\MPI_DFS_.C3BE6E57.Up2Date
+D:\Users\serge\source\repos\MPI_DFS_LFS\obj\Debug\net8.0\MPI_DFS_LFS.sourcelink.json

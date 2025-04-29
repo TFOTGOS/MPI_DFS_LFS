@@ -22,14 +22,18 @@ class Program
                 int numVertices = graphSizes[i];
                 int avgDegree = 4;
 
-                if (rank == 0)
-                    Console.WriteLine($"Graph size: {numVertices}");
+                List<int>[] graph = null;
 
-                var graph = GenerateRandomGraph(numVertices, avgDegree, seed: 12345);
+                if (rank == 0)
+                {
+                    Console.WriteLine($"Graph size: {numVertices}");
+                    graph = GenerateRandomGraph(numVertices, avgDegree);
+                }
 
                 int localStart = rank * numVertices / size;
                 int localEnd = (rank + 1) * numVertices / size;
-
+                
+                graph = BroadcastGraph(graph, comm);
                 comm.Barrier();
 
                 double dfsTime = MeasureTraversalTime(graph, localStart, localEnd, isDFS: true, comm);
@@ -53,9 +57,9 @@ class Program
         }
     }
 
-    static List<int>[] GenerateRandomGraph(int numVertices, int avgDegree, int seed)
+    static List<int>[] GenerateRandomGraph(int numVertices, int avgDegree)
     {
-        Random rand = new Random(seed);
+        Random rand = new Random();
         var graph = new List<int>[numVertices];
         for (int i = 0; i < numVertices; i++)
             graph[i] = new List<int>();
@@ -74,6 +78,39 @@ class Program
         }
         return graph;
     }
+
+    static List<int>[] BroadcastGraph(List<int>[] graph, Intracommunicator comm)
+    {
+        int numVertices = graph?.Length ?? 0;
+
+        comm.Broadcast(ref numVertices, 0);
+
+        if (comm.Rank != 0)
+        {
+            graph = new List<int>[numVertices];
+        }
+
+        for (int i = 0; i < numVertices; i++)
+        {
+            int neighborCount = graph != null && graph[i] != null ? graph[i].Count : 0;
+            comm.Broadcast(ref neighborCount, 0);
+
+            int[] neighbors = new int[neighborCount];
+            if (comm.Rank == 0)
+            {
+                neighbors = graph[i].ToArray();
+            }
+            comm.Broadcast(ref neighbors, 0);
+
+            if (comm.Rank != 0)
+            {
+                graph[i] = neighbors.ToList();
+            }
+        }
+
+        return graph;
+    }
+
 
     static double MeasureTraversalTime(List<int>[] graph, int startVertex, int endVertex, bool isDFS, Intracommunicator comm)
     {

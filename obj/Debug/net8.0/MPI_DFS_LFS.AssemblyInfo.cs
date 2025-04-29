@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MPI_DFS_LFS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9ec6acd5a919667a752540a337c5221a0461217")]
 [assembly: System.Reflection.AssemblyProductAttribute("MPI_DFS_LFS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MPI_DFS_LFS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
